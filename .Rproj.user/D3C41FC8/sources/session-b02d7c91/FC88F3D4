@@ -3,7 +3,7 @@
     "path": "C:/Users/shrav/OneDrive/Desktop/ETC5513_Assignment2/example.qmd",
     "project_path": "example.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "4042602396",
     "contents": "",
     "dirty": false,
     "created": 1778312074803.0,
@@ -15,18 +15,18 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "7,0",
+        "cursorPosition": "25,0",
         "scrollLine": "0",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "255:175.1999969482422"
+        "rmdVisualModeLocation": "521:439.20001220703125"
     },
     "folds": "",
-    "lastKnownWriteTime": 1778312283,
+    "lastKnownWriteTime": 1778468711,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1778312283467,
+    "last_content_update": 1778468711134,
     "read_only": false,
     "read_only_alternatives": []
 }
