@@ -1,1 +1,1 @@
-{"entries":[],"headings":["introduction","summary-statistics"]}
+{"entries":[{"caption":"Speed Distribution","key":"fig-speed","order":{"number":1,"section":[0,3,0,0,0,0,0]}},{"caption":"Pressure vs Temperature","key":"fig-pressure","order":{"number":3,"section":[0,5,0,0,0,0,0]}},{"caption":"Speed vs Stopping Distance","key":"fig-cars","order":{"number":2,"section":[0,4,0,0,0,0,0]}}],"headings":["introduction","summary-statistics","speed-analysis","data-visualisation","pressure-analysis"]}

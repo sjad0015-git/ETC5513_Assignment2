@@ -1,6 +1,0 @@
-[1,"==> quarto preview example.qmd --to html --no-watch-inputs --no-browse\n\n"]
-[1,"\r\n\r\nprocessing file: example.qmd\r\n\r  |                                                          \r  |                                                    |   0%\r  |                                                          \r  |.................                                   |  33%                  \r  |                                                          \r  |...................................                 |  67% [unnamed-chunk-1]"]
-[1,"\r  |                                                          \r  |....................................................| 100%                  \r                                                                                                            \r\noutput file: example.knit.md\r\n\r\n"]
-[1,"pandoc \n  to: html\n  output-file: example.html\n  standalone: true\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  variables: {}\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  title: ETC5513 Assignment 2\n  author: Shravani Jadhav\n  editor: visual\n  \n"]
-[1,"Output created: example.html\n\nWatching files for changes\n"]
-[1,"Browse at http://localhost:3542/example.html\nListening on http://127.0.0.1:3542/\n"]

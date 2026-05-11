@@ -1,9 +1,7 @@
 ---
 title: "ETC5513 Assignment 2: The Guide"
 author: "Shravani Jadhav"
-format: 
-  html: default
-  pdf: default
+format: pdf
 editor: visual
 ---
 
@@ -33,7 +31,7 @@ Then I created a repository in GitHub named ETC5513_Assignment2. By using the co
 
 I created a new branch named testbranch and also switched to it at once, using git switch -c testbranch. Now, I can make changes separately on this branch without affecting the main branch until required. On the new branch, I created a section on data visualization with a scatter plot of the cars dataset in example.qmd file. Then, I added, committed and pushed my changes to the remote repository as we did in Step 2, just this time in the testbranch.
 
-```{bash}
+``` bash
 git add . 
 git commit -m "Add data visualisation section to example.qmd on testbranch" 
 git push -u origin testbranch
@@ -49,7 +47,7 @@ The screenshots below depict the success of push to GitHub.
 
 I created a data folder in the project and uploaded Assignment 1’s dataset in it. Instead of making a new commit, I used the git commit --amend command to incorporate the data folder in the last commit:
 
-```{bash}
+``` bash
 git add .
 git commit --amend --no-edit
 git push --force origin testbranch
@@ -67,7 +65,7 @@ As amending rewrites the commit hash, there will be a discrepancy between the re
 
 I switched back to the main branch using the command git switch main. Then, I edited example.qmd in the same place where I made changes to testbranch, but the content is not the same; I added Speed Analysis instead of Data Visualisation. After that, I staged, committed, and pushed:
 
-```{bash}
+``` bash
 git switch main
 git add .
 git commit -m "Add speed analysis section to main"
@@ -84,9 +82,9 @@ To create a merge conflict, I have set up a scenario that will lead to one. Ther
 
 I merged testbranch into main using git merge testbranch. Git detected a conflict in example.qmd because both branches had changed the lines. Git added conflict markers to the file to show both versions.
 
-HEAD means the branch, which is main. Everything between \<\<\<\<\<\<\< HEAD and ======= is the branch version. Everything between ======= and \>\>\>\>\>\>\> testbranch is the version. I edited example.qmd in RStudio. I kept both sections. I removed all conflict marker lines. Then I staged the file. I completed the merge:
+HEAD means the branch, which is main. Everything between \<\<\<\<\<\<\< HEAD and ======= is the branch version. Everything between ======= and \>\>\>\>\>\>\> testbranch is the version. I edited example.qmd in RStudio by keeping both sections, but removed all conflict marker lines. Then I staged the file and completed the merge:
 
-```{bash}
+``` bash
 git add .
 git commit -m "Merge testbranch into main and resolve conflict in example.qmd."
 git push origin main
@@ -102,7 +100,7 @@ The screenshots show conflict markers, in RStudio. They also show the state on G
 
 I made a tag called v1.0 on the current commit of main and I pushed it to GitHub. I used these commands:
 
-```{bash}
+``` bash
 git tag -a v1.0 -m "Version 1.0: merge complete"
 git push origin v1.0
 git tag
@@ -120,7 +118,7 @@ The screenshots below show how I created the tag in the terminal and now the v1.
 
 After merging testbranch to the main branch successfully, I removed both the local and GitHub repositories of testbranch:
 
-```{bash}
+``` bash
 git branch -d testbranch 
 git push origin --delete testbranch 
 git branch -v
@@ -138,7 +136,7 @@ Deleting merged branches helps in keeping the repository clean and avoids confus
 
 I used the below command to print out the complete commit history in a concise manner:
 
-```{bash}
+``` bash
 git log --oneline
 ```
 
@@ -150,7 +148,7 @@ The above command prints out each commit along with abbreviated commit hash and 
 
 I added an additional section on Pressure Analysis with a graph of the pressure data set in example.qmd. I then performed a commit operation. I then performed git reset --soft HEAD\~1 operation, which undid the commit but not the file changes.
 
-```{bash}
+``` bash
 git add .
 git commit -m "Add pressure plot section to example.qmd"
 git reset --soft HEAD~1

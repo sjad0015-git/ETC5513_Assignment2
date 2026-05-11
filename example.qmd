@@ -29,6 +29,7 @@ This section analyses the speed variable from the cars dataset.
 #| label: fig-speed
 #| fig-cap: "Speed Distribution"
 hist(cars$speed, main = "Speed Distribution", xlab = "Speed")
+```
 
 ## Data Visualisation
 
@@ -41,4 +42,15 @@ This section shows a plot of the cars dataset.
 plot(cars$speed, cars$dist,
      xlab = "Speed", ylab = "Distance")
 
+```
+
+## Pressure Analysis
+
+This section demonstrates a new plot using the pressure dataset.
+
+```{r}
+#| echo: true
+#| label: fig-pressure
+#| fig-cap: "Pressure vs Temperature"
+plot(pressure)
 ```

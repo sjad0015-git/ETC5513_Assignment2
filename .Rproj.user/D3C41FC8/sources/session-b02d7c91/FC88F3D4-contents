@@ -19,7 +19,7 @@ summary(cars)
 
 The dataset contains `r nrow(cars)` observations.
 
-<<<<<<< HEAD
+
 ## Speed Analysis
 
 This section analyses the speed variable from the cars dataset.
@@ -30,7 +30,7 @@ This section analyses the speed variable from the cars dataset.
 #| fig-cap: "Speed Distribution"
 hist(cars$speed, main = "Speed Distribution", xlab = "Speed")
 ```
-=======
+
 ## Data Visualisation
 
 This section shows a plot of the cars dataset.
@@ -41,5 +41,16 @@ This section shows a plot of the cars dataset.
 #| fig-cap: "Speed vs Stopping Distance"
 plot(cars$speed, cars$dist,
      xlab = "Speed", ylab = "Distance")
->>>>>>> testbranch
+
+```
+
+## Pressure Analysis
+
+This section demonstrates a new plot using the pressure dataset.
+
+```{r}
+#| echo: true
+#| label: fig-pressure
+#| fig-cap: "Pressure vs Temperature"
+plot(pressure)
 ```
