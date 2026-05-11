@@ -1,0 +1,18 @@
+---
+title: "ETC5513 Assignment 2: The Guide"
+author: "Shravani Jadhav"
+format: html
+editor: visual
+---
+
+# Introduction
+
+This guide demonstrates my knowledge of git, GitHub, and the command line interface for version control and collaboration.
+
+## Step 1: Create a New RStudio Project and Quarto File
+
+I created a new RStudio project called `etc5513-assignment2` and created a simple Quarto file called `example.qmd` that renders to HTML.
+
+The file contains a title, author, a short paragraph, and a summary statistics code chunk using the `cars` dataset.
+
+![](step1.png)
