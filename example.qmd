@@ -18,3 +18,14 @@ summary(cars)
 ```
 
 The dataset contains `r nrow(cars)` observations.
+
+## Speed Analysis
+
+This section analyses the speed variable from the cars dataset.
+
+```{r}
+#| echo: true
+#| label: fig-speed
+#| fig-cap: "Speed Distribution"
+hist(cars$speed, main = "Speed Distribution", xlab = "Speed")
+```
